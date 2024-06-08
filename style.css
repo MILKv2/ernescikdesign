@@ -37,17 +37,17 @@ header {
 }
 
 .logotext {
-    margin: auto auto auto 5px;
+    margin: auto auto auto 0;
     font-size: 25px;
     font-weight: 500;
 }
 
 main {
-    padding: 20px;
     margin: 100px auto;
-    max-width: 1000px;
+    max-width: 1300px;
     display: flex;
     color: black;
+    background-color: red;
 }
 
 .hejjestemernescik {
@@ -62,12 +62,11 @@ main {
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 5em;
-    padding: 10px;
     order: sortable;
 }
 
 .image img {
-    width: 400px;
+    width: 300px;
     order: sortable;
     text-align: center;
     justify-content: center;
@@ -76,7 +75,7 @@ main {
     border: 1px solid transparent;
     border-radius: 6px;
     box-shadow: 0 0 20px 0 rgba(111, 0, 255, 0.5);
-    background-color: white;
+    background-color: rgba(111, 0, 255, 0.5);
 }
 
 footer {
