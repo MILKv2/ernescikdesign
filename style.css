@@ -66,7 +66,7 @@ main {
 }
 
 .image img {
-    width: 300px;
+    width: 100%;
     order: sortable;
     text-align: center;
     justify-content: center;
@@ -76,6 +76,10 @@ main {
     border-radius: 6px;
     box-shadow: 0 0 20px 0 rgba(111, 0, 255, 0.5);
     background-color: rgba(111, 0, 255, 0.5);
+}
+
+.image {
+    max-width: 300px;
 }
 
 footer {
