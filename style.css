@@ -48,6 +48,7 @@ main {
     max-width: 1300px;
     display: flex;
     color: black;
+    flex-direction: column;
 }
 
 .hejjestemernescik {
@@ -102,3 +103,4 @@ ul li {
 .hejjestemernescikas h2 {
     font-family: "Roboto Condensed", sans-serif;
 }
+
